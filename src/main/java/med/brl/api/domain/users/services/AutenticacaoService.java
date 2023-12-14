@@ -1,6 +1,6 @@
-package med.brl.api.users.services;
+package med.brl.api.domain.users.services;
 
-import med.brl.api.users.repository.UsuariosRepository;
+import med.brl.api.domain.users.repository.UsuariosRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

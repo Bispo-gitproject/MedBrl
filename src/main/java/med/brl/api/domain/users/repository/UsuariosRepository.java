@@ -1,6 +1,6 @@
-package med.brl.api.users.repository;
+package med.brl.api.domain.users.repository;
 
-import med.brl.api.users.entities.UsuariosEntity;
+import med.brl.api.domain.users.entities.UsuariosEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Repository;

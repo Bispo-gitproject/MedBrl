@@ -1,4 +1,4 @@
-package med.brl.api.users.dto;
+package med.brl.api.domain.users.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

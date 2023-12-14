@@ -41,6 +41,7 @@ public class PacienteEntity {
         this.telefone = dtoCadastraPaciente.telefone();
         this.cpf = dtoCadastraPaciente.cpf();
         this.endereco = new EnderecoEntity(dtoCadastraPaciente.endereco());
+        this.ativo = true;
     }
 
     public void atualizaPaciente(DTOAtualizaoPaciente dtoAtualizaPaciente) {
