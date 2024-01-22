@@ -39,13 +39,13 @@ public class MedicoEntity {
     private Boolean ativo;
 
     public MedicoEntity(DTOCadastroMedico cadastroMedicos) {
-        this.ativo = true;
         this.nome = cadastroMedicos.nome();
         this.email = cadastroMedicos.email();
         this.telefone = cadastroMedicos.telefone();
         this.crm = cadastroMedicos.crm();
         this.especialidade = cadastroMedicos.especialidade();
         this.endereco = new EnderecoEntity(cadastroMedicos.endereco());
+        this.ativo = true;
 
     }
 
